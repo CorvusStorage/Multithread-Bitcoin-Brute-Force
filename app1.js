@@ -6,7 +6,7 @@ process.title = "Multithread Bitcoin Brute Force by Corvus Codex";
 //Github: https://github.com/CorvusCodex/
 //Licence : MIT License
 
-//Support my work:
+//Support my work :
 //BTC: bc1q7wth254atug2p4v9j3krk9kauc0ehys2u8tgg3
 //ETH & BNB: 0x68B6D33Ad1A3e0aFaDA60d6ADf8594601BE492F0
 
@@ -56,7 +56,6 @@ data.toString().split("\n").forEach(address => {
 // Initializing an object to store counts for each worker
 let counts = {};
 
-// Initializing an object to store start times for each worker
 let startTimes = {};
 
 // Function to generate a private key and check if the corresponding public address is in the Set of addresses
