@@ -11,7 +11,6 @@ process.title = "Multithread Bitcoin Brute Force by Corvus Codex";
 //ETH & BNB: 0x68B6D33Ad1A3e0aFaDA60d6ADf8594601BE492F0
 //Ko-fi: https://ko-fi.com/s/e059759b3b
 
-
 const readline = require('readline');
 const { spawn } = require('child_process');
 
